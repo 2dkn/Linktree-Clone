@@ -61,7 +61,11 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.tile, .share-button :hover {
+.tile :hover {
+    transition: cubic-bezier(.07, 60, .65, 1.30) 0.2s;
+    transform: scale(1.02);
+}
+.share-button :hover {
     transition: cubic-bezier(.07, 20, .65, 1.30) 0.2s;
     transform: scale(1.02);
 }
@@ -96,3 +100,4 @@ a {
   display: flex;
   align-items: center;
 }
+
