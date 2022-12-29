@@ -2,7 +2,7 @@ const shareButtons = document.querySelectorAll('.tile-share-button');
 console.log(shareButtons);
 
 const shareButtons2 = document.querySelectorAll('.share-button ')
-console.log(shareButtons2);
+// console.log(shareButtons2);
 
 async function copyText(e) {
   e.preventDefault();
